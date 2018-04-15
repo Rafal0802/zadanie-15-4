@@ -14,13 +14,13 @@ console.log('Zadanie 1: ' + hello + ' ' + world);
 var multiply = function multiply() {
   var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
   var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-  return a * b;
+  return console.log('Zadanie 2: ' + a * b);
 };
 
-console.log('Zadanie 2: ' + multiply(a, b));
-console.log('Zadanie 2: ' + multiply(2, 5));
-console.log('Zadanie 2: ' + multiply(6, 6));
-console.log('Zadanie 2: ' + multiply(5));
+multiply();
+multiply(2, 5);
+multiply(6, 6);
+multiply(5);
 
 // Zadanie trzecie - rozwiązanie:
 
