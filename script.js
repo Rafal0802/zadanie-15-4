@@ -9,7 +9,7 @@ console.log(`Zadanie 1: ${hello} ${world}`);
 
 const multiply = (a=1, b=1) => console.log(`Zadanie 2: ${a * b}`);
 
-console.log(`Zadanie 2: ${multiply(a,b)}`);
+console.log(`Zadanie 2: ${multiply()}`);
 console.log(`Zadanie 2: ${multiply(2,5)}`);
 console.log(`Zadanie 2: ${multiply(6,6)}`);
 console.log(`Zadanie 2: ${multiply(5)}`);
