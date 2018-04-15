@@ -7,7 +7,7 @@ console.log(`Zadanie 1: ${hello} ${world}`);
 
 // Zadanie drugie - rozwiązanie:
 
-const multiply = (a=1, b=1) => a * b;
+const multiply = (a=1, b=1) => console.log(`Zadanie 2: ${a * b}`);
 
 console.log(`Zadanie 2: ${multiply(a,b)}`);
 console.log(`Zadanie 2: ${multiply(2,5)}`);
